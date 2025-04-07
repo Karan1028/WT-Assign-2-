@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Critique AI</title>
+    <link rel="stylesheet" href="styles.css">  
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li>ArtCritiqueAl</li>
+                <li>Explore Artworks</li>
+                <li>Art Styles</li>
+                <li>Join Our Community</li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <h1>Transform Your Art Today</h1>
+            <p>Receive tailored critiques from our AI to enhance your artistic journey.</p>
+            <button>Start Your Critique</button>
+        </div>
+    </header>
+
+    <section id="features" class="features">
+        <h2>Our Unique Features</h2>
+        <div class="feature-grid">
+            <div class="feature">
+                <h3>AI-Powered Insights</h3>
+                <p>Get personalized feedback based on advanced algorithms that analyze your artwork's strengths and areas for improvement.</p>
+            </div>
+            <div class="feature">
+                <h3>Instant Feedback</h3>
+                <p>Receive immediate critiques that help you refine your skills and artistic vision in real-time.</p>
+            </div>
+             <div class="feature">
+                <h3>Community Engagement</h3>
+                <p>Connect with fellow artists and share your work to gain diverse perspectives and support.</p>
+            </div>
+            <div class="feature">
+                <h3>Learning Resources</h3>
+                <p>Access a wealth of tutorials and guides tailored to your artistic style and goals.</p>
+            </div>
+            <div class="feature">
+                <h3>User-Friendly Interface</h3>
+                <p>Navigate effortlessly through our platform designed for artists of all levels, ensuring a smooth experience.</p>
+            </div>
+            <div class="feature">
+                 <h3>Expert Recommendations</h3>
+                <p>Benefit from curated suggestions that guide you towards improving your technique and creativity.</p>
+            </div>
+             <div class="feature">
+                <h3>Artistic Growth</h3>
+                <p>Join a thriving community where your artistic journey is nurtured and celebrated.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works">
+        <h2>How It Works</h2>
+        <div class="steps">
+            <div class="step">
+                <h4>1</h4>
+                <h3>Step 1: Upload Your Artwork</h3>
+                <p>Easily submit your artwork for critique through our intuitive upload feature.</p>
+            </div>
+            <div class="step">
+                <h4>2</h4>
+                <h3>Step 2: Receive AI Analysis</h3>
+                <p>Our AI analyzes your piece and generates constructive feedback tailored to your style.</p>
+            </div>
+            <div class="step">
+                <h4>3</h4>
+                <h3>Step 3: Implement Feedback</h3>
+                <p>Use the insights provided to enhance your skills and create even better artwork.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="mission" class="mission">
+        <h2>Our Mission</h2>
+        <p>To empower artists by providing insightful critiques that foster creativity and skill development.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Connect With Us</h2>
+        <p>We'd love to hear from you!</p>
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Enter your email">
+            <textarea placeholder="Type your message here"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <section id="revolution" class="revolution">
+        <div>
+        <h2>Join Our Artistic Revolution</h2>
+        <p>Discover how AI can elevate your art to new heights.</p>
+        <button>Learn More</button>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <ul>
+                <li>@ArtCritiqueAl</li>
+                <li>About Us</li>
+                <li>Our Work LinkedIn</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+        <div class="footer-bottom">
+            <p>2024 ArtCritiqueAl. All rights reserved.</p>
+            <ul>
+                <li>Privacy Policy</li>
+                <li>Terms of Service</li>
+                <li>Cookie Preferences</li>
+            </ul>
+        </div>
+    </footer>/* Basic Reset and General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+h1 { font-size: 2.5em; margin-bottom: 0.5em; }
+h2 { font-size: 2em; margin-bottom: 1em; }
+h3 { font-size: 1.5em; margin-bottom: 0.5em; }
+p { margin-bottom: 1em; }
+
+button {
+    padding: 1em 2em;
+    border: none;
+    background-color: #007bff; /* Example button color */
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Header Section */
+header {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 2em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-bottom: 1em;
+}
+
+nav li {
+    font-weight: bold;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Features Section */
+#features {
+    padding: 2em;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 1em;
+}
+
+.feature {
+    background-color: #fff;
+    padding: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* How It Works Section */
+#how-it-works {
+    background-color: #f9f9f9;
+    padding: 2em;
+    text-align: center;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap; /* Wrap on smaller screens */
+}
+
+.step {
+    width: 200px;
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.step h4 {
+    background-color: #007bff;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 0.5em;
+}
+
+/* Mission Section */
+#mission {
+    padding: 2em;
+    text-align: center;
+    background-color: #fff;
+}
+
+/* Contact Section */
+#contact {
+    padding: 2em;
+    background-color: #f0f0f0;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#contact input,
+#contact textarea {
+    padding: 0.75em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contact button {
+    align-self: flex-start; /* Align button to the start */
+}
+
+/* Revolution Section */
+#revolution {
+    background-color: #ddd;
+    padding: 2em;
+    text-align: center;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+}
+
+footer nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+footer nav li {
+    color: #fff;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}
+
+.footer-bottom ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 0.8em;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .steps {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+</body>
+</html>
+
